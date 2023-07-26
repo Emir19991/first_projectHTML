@@ -1,0 +1,31 @@
+h1 {
+    color:chartreuse;
+    /* margin: 0; */
+}
+h1, h2, p {
+    margin: 0;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+desc {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card {
+    width: 500px;
+    height: 200px;
+    /* dashed - пунктир, solid - сплошной */
+    border: 3px dashed rgb(255, 217, 0);
+    padding: 30px;
+    background-color: papayawhip;
+    margin-bottom: 40px;
+}
+/* .list {
+    /* Если хотим горизонтальный список
+    display: flex;
+    gap: 30px;
+} */ 
